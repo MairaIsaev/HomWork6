@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="631dp"
+        android:src="@drawable/vector__3_" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="634dp"
+        android:src="@drawable/vector__4_" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rent a car"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="122dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="483dp"
+        android:background="@drawable/raunder" />
+    <ImageView
+        android:src="@drawable/vector__5_"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="210dp"/>
+    <TextView
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="200dp"
+        android:text="Search"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#9F9F97"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginBottom="327dp"
+        android:background="@drawable/raunder2" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/vector__6_" />
+       <TextView
+           android:textSize="30dp"
+           android:layout_width="120dp"
+           android:layout_height="40dp"
+           android:text="Bagamy"
+           android:layout_marginTop="359dp"
+           android:layout_marginStart="40dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="102dp"
+        android:src="@drawable/group__5_"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="260dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginBottom="174dp"
+        android:background="@drawable/raunder2"
+        android:backgroundTint="#F0B5F6" />
+    <ImageView
+        android:src="@drawable/vector__6_"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="483dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Bagamy"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="102dp"
+        android:src="@drawable/group__6_"
+        android:layout_marginTop="468dp"
+        android:layout_marginStart="260dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/raunder2"
+        android:backgroundTint="#50DCE1" />
+    <ImageView
+        android:src="@drawable/vector__6_"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="637dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Bagamy"
+        android:layout_marginTop="667dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="102dp"
+        android:src="@drawable/group__7_"
+        android:layout_marginTop="617dp"
+        android:layout_marginStart="260dp"/>
+</RelativeLayout>
